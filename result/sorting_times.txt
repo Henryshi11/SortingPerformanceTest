@@ -1,0 +1,1 @@
+really_samll_data_.txt using InsertionSort: 0 ms
