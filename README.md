@@ -21,7 +21,7 @@ This project includes a Java application designed to test and compare the perfor
    java Main
    ```
    Follow the instructions to select an algorithm and start the performance test.
-
+   **using windows JVM may need to edit the path of looking DIR for data and result under SortTester.java**
 3. **View the results.** After the program has finished running, check the `result` directory for the sorted output files and sorting time used logs.
 
 ## Adding New Datasets
