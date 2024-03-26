@@ -9,11 +9,17 @@ import java.util.stream.Collectors;
 import algorithms.*;
 
 public class SortTester {
-    private static final String DATA_DIR = System.getProperty("user.dir") + File.separator
-     + "SortingPerformanceTest" + File.separator + "data";//get data dir
+    // private static final String DATA_DIR = System.getProperty("user.dir") + File.separator
+    //  + "SortingPerformanceTest" + File.separator + "data";//get data dir using windows jvm
+    
+    // private static final String RESULT_DIR = System.getProperty("user.dir") + File.separator
+    //  + "SortingPerformanceTest" + File.separator + "result"; //get result dir using windows jvm
+
+     private static final String DATA_DIR = System.getProperty("user.dir") + File.separator
+     + ".." + File.separator + "data";//get data dir using linux command line
     
     private static final String RESULT_DIR = System.getProperty("user.dir") + File.separator
-     + "SortingPerformanceTest" + File.separator + "result"; //get result dir
+     + ".." + File.separator + "result"; //get result dir using linux command line
 
     public static void testSortPerformance(int sortAlgorithm) throws IOException {
         String algorithmName = "";

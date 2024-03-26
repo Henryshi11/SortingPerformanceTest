@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Select the sorting algorithm:");
-        System.out.println("1: InsertionSort\n2: BubbleSort\n3: QuickSort\n4: MergeSort");
+        System.out.println("1: InsertionSort\n2: BubbleSort\n3: QuickSort\n4: MergeSort");//add selection
 
         try {
             System.out.print("Enter your choice (1-4): ");
